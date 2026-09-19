@@ -33,5 +33,10 @@ export default defineConfig({
     plugins: [
       legacy()
     ]
+  },
+  lastUpdated: true,
+  
+  sitemap: {
+    hostname: 'https://example.com'
   }
 })
