@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^8.2.3",
+    "vitepress": "^2.0.0-alpha.20"
+  },
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "name": "docs",
+  "version": "1.0.0",
+  "description": ""
+}
