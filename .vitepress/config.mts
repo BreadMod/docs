@@ -29,11 +29,11 @@ export default defineConfig({
     ]
   },
 
-  vite: {
-    plugins: [
-      legacy()
-    ]
-  },
+  //vite: {
+  //  plugins: [
+  //    legacy()
+  //  ]
+  //},
   lastUpdated: true,
   
   sitemap: {
