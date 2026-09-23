@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import legacy from '@vitejs/plugin-legacy';
+import browserslistToEsbuild from 'browserslist-to-esbuild';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -29,11 +29,11 @@ export default defineConfig({
     ]
   },
 
-  //vite: {
-  //  plugins: [
-  //    legacy()
-  //  ]
-  //},
+  vite: {
+    build: {
+      target: browserslistToEsbuild()
+    }
+  },
   lastUpdated: true,
   
   sitemap: {
